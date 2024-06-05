@@ -1,13 +1,29 @@
 body {
-  background:pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: pink;
 }
 
-container {
-    max-width: 1440px;
+.container {
     background-color: white;
+    padding: 150px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 15px; /* Rounded corners */
+    /* width: auto; */
+}
+
+.top-image {
+  max-width: 100%;
+  height: auto;
 }
 
 .footer {
+    margin-top: 15px;
   font-size: 20px;
   text-align: center;
 }
